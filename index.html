@@ -8,7 +8,25 @@
 		<script src="scripts/main.js"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
 		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
-	
+		<!--this prevents right clicking-->
+				<script type="text/javascript"> 
+		function disableselect(e){  
+		return false  
+		}  
+
+		function reEnable(){  
+		return true  
+		}  
+
+		//if IE4+  
+		document.onselectstart=new Function ("return false")  
+		document.oncontextmenu=new Function ("return false")  
+		//if NS6  
+		if (window.sidebar){  
+		document.onmousedown=disableselect  
+		document.onclick=reEnable  
+		}
+		</script>
 	</head>
 	
 <!--this is the main part of my website, the "projects" section-->
