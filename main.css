@@ -67,4 +67,6 @@ tr {
 	color: #333;
 }
 /*META*/
-.Inav
+#Inav {
+	float:left;
+}
