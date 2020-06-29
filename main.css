@@ -33,22 +33,22 @@ ul li a {
 	color: #333;
 }
 #my-img-one {
-	width: 460px;
-    height: 310px;
+	width: 50%;
+    height: 50%;
 }
 #my-img-one:hover {
     content: url('CameronTravelscover2.jpg');
-    width: 480px;
-    height: 330px;
+    width: 55%;
+    height: 55%;
 }
 #my-img-two {
-	width: 460px;
-    height: 310px;
+	width: 50%;
+    height: 50%;
 }
 #my-img-two:hover {
-	content: url('WeCanCover4.jpg');
-	width: 480px;
-    height: 330px;
+	content: url('WeCanCover5.jpg');
+	width: 55%;
+    height: 55%;
 }
 p {
 	font-size: 15px;
@@ -66,10 +66,7 @@ tr {
 	text-decoration:none;
 	color: #333;
 }
-/*META*/
-#Inav {
-	float:left;
-}
-#kylie {
-	size:20px;
+a {
+	color:#333;
+	text-decoration:none;
 }
