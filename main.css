@@ -37,7 +37,7 @@ ul li a {
     height: 95%;
 }
 #my-img-one:hover {
-    content: url('CameronTravelscover2.jpg');
+    content: url('CameronTravelscover3.jpg');
     width: 100%;
     height: 100%;
 }
@@ -74,4 +74,3 @@ a {
 @media
 only screen and (max-width: 1500px) {
   table, thead, tbody, th, td, tr {
-    
