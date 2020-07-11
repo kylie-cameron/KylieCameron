@@ -33,22 +33,22 @@ ul li a {
 	color: #333;
 }
 #my-img-one {
-	width: 50%;
-    height: 50%;
+	width: 45%;
+    height: 45%;
 }
 #my-img-one:hover {
     content: url('CameronTravelscover3.jpg');
-    width: 55%;
-    height: 55%;
+    width: 50%;
+    height: 50%;
 }
 #my-img-two {
-	width: 50%;
-    height: 50%;
+	width: 45%;
+    height: 45%;
 }
 #my-img-two:hover {
 	content: url('WeCanCover6.jpg');
-	width: 55%;
-    height: 55%;
+	width: 50%;
+    height: 50%;
 }
 p {
 	font-size: 15px;
