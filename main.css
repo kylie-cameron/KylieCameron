@@ -4,7 +4,6 @@ body {
 }
 h1 {
 	color: #333;
-	font-size: 45px;
 	padding-top: 90px;
 	padding-bottom: 30px;
 	padding-left: 55px;
@@ -51,14 +50,12 @@ ul li a {
     height: 50%;
 }
 p {
-	font-size: 15px;
 }
 .mono {
 	text-decoration:none;
 	color: #333;
 }
 .theemail {
-	font-size: 15px;
 	text-decoration:none;
 	color:black;
 }
