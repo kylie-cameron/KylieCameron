@@ -4,13 +4,9 @@ body {
 }
 h1 {
 	color: #333;
-	padding-left: 55px;
 }
 nav ul {
-	margin: 1;
 	display: inline;
-	padding-right: 0px;
-	padding-left: 1100px;
 }
 nav ul li {
 	float:right;
