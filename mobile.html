@@ -3,8 +3,8 @@
 <!--this is the "extra components" and the website title-->
 
 	<head>
-		<title>Kylie Cameron2</title>
-		<link href="main.css" rel="stylesheet" type=text/css />
+		<title>Kylie Cameron</title>
+		<link href="mobile.css" rel="stylesheet" type=text/css />
 		<script src="scripts/main.js"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
 		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
@@ -26,7 +26,7 @@ function getTemplate() {
 				return window.location.replace("mobile.html");
 		}
 
-		if (screen.width < 767 && CurrentPage != 'DesktopPage') {
+	 	else (screen.width < 767 && CurrentPage != 'DesktopPage') {
 				return window.location.replace("index.html");
 		}
 }
@@ -34,3 +34,127 @@ function getTemplate() {
 getTemplate();
 </script>
 	</head>
+
+<style>
+	/* Style The Dropdown Button */
+	.dropbtn {
+	  background-color: #ffffff;
+		margin:0%;
+		padding:0%;
+	  color: #333;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+		margin:0%;
+		padding:0%;
+	float:right;
+	  position: relative;
+	  display: inline-block;
+	}
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+		margin:0%;
+		padding:0%;
+	right:0;
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	/* Links inside the dropdown */
+	.dropdown-content a {
+		margin:0%;
+		padding:0%;
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	/* Change color of dropdown links on hover */
+	.dropdown-content a:hover {
+		background-color:#f9f9f9;
+	}
+
+
+	/* Show the dropdown menu on hover */
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+	.dropdown:hover .dropbtn {
+	  background-color: #ffffff;
+	}
+	</style>
+
+	<div class="dropdown">
+	  <button class="dropbtn" style="padding-top:0; margin-top:0;">≡</button>
+	  <div class="dropdown-content">
+	    <a href="index.html">Home</a>
+			<a href="#abouth1">About</a>
+			<a href="#footer-links">Contact</a>
+	  </div>
+	</div>
+
+
+
+
+<body>
+	<h1 id="headh1"><strong>Kylie Cameron</strong></h1>
+	<p  id="headp">Student and Web Developer</p>
+<center>
+	<table>
+			<tr><img src="wecanmobile.jpg"></tr>
+			<tr><h1 id="h1port"><u style="text-decoration-color:#e3effb;">We Can</u></h1></tr>
+			<tr><p id="pport">A student lead non-profit I founded to<br> help make STEAM education<br> accessable to all</p></h1>
+				<br>
+			<tr><img src="camerontravelsmobile.jpg"></tr>
+			<tr><h1 id="h1port"><u style="text-decoration-color:#f5f0ed;">Cameron Travels</u></h1></tr>
+			<tr><p id="pport">A virtual photo album showing the Cameron's<br> hikes, bikes, and road trips</p></h1>
+				<br>
+			<tr><img src="sustainablemobile.jpg"></tr>
+			<tr><h1 id="h1port"><u style="text-decoration-color:#e9fbe3;">Sustain.Able</u></h1></tr>
+			<tr><p id="pport">Shopping sustainably and supporting<br> ethical brands made simple</p></h1>
+				<br>
+	</table>
+</center>
+</body>
+
+<footer>
+	<h1 id="abouth1">About Me</h1>
+	<center><p  id="aboutp">Hi there, I'm Kylie! I'm always open to new projects.<br> Get in contact with me at
+		<a href="Kylie.Cameron1313@gmail.com" class="theemail">
+			<u style="text-decoration-color:#fbe3e3;">Kylie.Cameron1313@gmail.com</u>
+		</a>
+	</u>
+</p>
+</center>
+
+<footer id="contact">
+<center>
+	<div id="footer-links">
+		<a href="https://dribbble.com/kyliecam" class="mono" target="_">Dribbble</a>
+
+		<a href="mailto:kylie.cameron1313@gmail.com" class="mono" target="_">Email</a>
+
+		<a href="https://github.com/kylie-cameron" class="mono" target="_">Github</a>
+
+		<a href="https://www.linkedin.com/in/kylie-cameron-b316821a8/" class="mono" target="_">Linkedin</a>
+	</div>
+</center>
+</footer>
+
+<center>
+<p id="copyright" class="mono">&#xa9; <script>document.write(new Date().getFullYear())</script> Kylie Cameron.</p>
+</center>
+</footer>
+</html>
