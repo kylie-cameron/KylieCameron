@@ -1,19 +1,93 @@
-body {
-	background:white;
+body, html, table, img, tr, td {
 	font-family: 'Heebo', sans-serif;
+	padding:0%;
+	margin:0%;
+	background:white;
 }
-h1 {
+#headh1 {
+	margin-top:10%;
+	margin-left:2%;
+	font-size:3rem;
 	color: #333;
+	margin-bottom:0%;
+	padding-bottom:0%;
+
+}
+#headp {
+	padding-top:0%;
+	margin-top:0%;
+	margin-left:2%;
+	font-size:1.5rem;
+	color:#6a6a6a;
+}
+#readmore {
+	font-size:1.5rem;
+	padding-top:0%;
+	margin-top:0%;
+	margin-left:5%;
+}
+#readmore2 {
+	float:right;
+	font-size:1.5rem;
+	padding-top:0%;
+	margin-top:0%;
+	margin-right:10%;
+}
+#h1right{
+	margin-top:10%;
+	margin-left:5%;
+	font-size:3rem;
+	color: #333;
+	margin-bottom:0%;
+	padding-bottom:0%;
+}
+#pright {
+	font-size:1.5rem;
+	color:#6a6a6a;
+	padding-top:0%;
+	margin-top:0%;
+	margin-left:5%;
+	padding-bottom:0%;
+	margin-bottom:0%;
+}
+#imageright {
+	float:right;
+	width:600px;
+	height:540px;
+}
+#h1left {
+	float:right;
+	margin-top:10%;
+	margin-right:10%;
+	font-size:3rem;
+	color: #333;
+	margin-bottom:0%;
+	padding-bottom:0%;
+}
+#pleft {
+	font-size:1.5rem;
+	color:#6a6a6a;
+	float:right;
+	padding-top:0%;
+	margin-top:0%;
+	margin-right:10%;
+	margin-bottom:0%;
+	padding-bottom:0%;
+}
+#imageleft {
+	width:600px;
+	height:540px;
+	float:left;
 }
 nav ul {
 	display: inline;
 }
 nav ul li {
+	font-size:1.2rem;
 	float:right;
-	color: # 333;
-	display: inline-block;
+	color: #333;
 	list-style-type: none;
-	padding: 1px;
+	padding: 5px;
 }
 nav ul li a {
 	color: #333;
@@ -26,43 +100,31 @@ ul li {
 ul li a {
 	color: #333;
 }
-#my-img-one {
-	width: 45%;
-    height: 45%;
-}
-#my-img-one:hover {
-    content: url('CameronTravelscover3.jpg');
-    width: 50%;
-    height: 50%;
-}
-#my-img-two {
-	width: 45%;
-    height: 45%;
-}
-#my-img-two:hover {
-	content: url('WeCanCover6.jpg');
-	width: 50%;
-    height: 50%;
-}
-p {
-}
 .mono {
 	text-decoration:none;
-	color: #333;
+	margin-left:.5%;
+	margin-bottom:5%;
+	font-size:1.2rem;
+	color:#6a6a6a;
 }
 .theemail {
 	text-decoration:none;
 	color:black;
 }
-tr {
-	text-decoration:none;
+#abouth1 {
+		margin-top:10%;
+	margin-left:3%;
+	font-size:3rem;
 	color: #333;
+	margin-bottom:0%;
+	padding-bottom:0%;
 }
-a {
-	color:#333;
-	text-decoration:none;
+#aboutp {
+	padding-top:0%;
+	margin-top:0%;
+	font-size:1.5rem;
+	color:#6a6a6a;
 }
-/*TABLE RESIZING*/
-@media
-only screen and (max-width: 1500px) {
-  table, thead, tbody, th, td, tr {
+#footer-links {
+	font-size:1.5rem;
+}

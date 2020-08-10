@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<!--this is the "extra components" and the website title-->
+
+	<head>
+		<title>Kylie Cameron2</title>
+		<link href="main.css" rel="stylesheet" type=text/css />
+		<script src="scripts/main.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+
+		<script>
+		window.addEventListener("resize", getTemplate);
+
+CurrentPage = 'mobile.html';
+
+window.addEventListener("resize", getTemplate);
+
+CurrentPage = 'MobilePage';
+
+function getTemplate() {
+		if (screen.width >= 767 && CurrentPage != 'MobilePage') {
+				return window.location.replace("mobile.html");
+		}
+
+		if (screen.width < 767 && CurrentPage != 'DesktopPage') {
+				return window.location.replace("index.html");
+		}
+}
+
+getTemplate();
+</script>
+	</head>

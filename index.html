@@ -5,128 +5,117 @@
 	<head>
 		<title>Kylie Cameron</title>
 		<link href="main.css" rel="stylesheet" type=text/css />
-		<script src="scripts/main.js"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
 		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="HandheldFriendly" content="true">
-		<!--this prevents right clicking-->
-				<script type="text/javascript"> 
-		function disableselect(e){  
-		return false  
-		}  
 
-		function reEnable(){  
-		return true  
-		}  
+		<script>
+		window.addEventListener("resize", getTemplate);
 
-		//if IE4+  
-		document.onselectstart=new Function ("return false")  
-		document.oncontextmenu=new Function ("return false")  
-		//if NS6  
-		if (window.sidebar){  
-		document.onmousedown=disableselect  
-		document.onclick=reEnable  
-		}
-		</script>
+CurrentPage = 'index.html';
+
+window.addEventListener("resize", getTemplate);
+
+CurrentPage = 'DesktopPage';
+
+function getTemplate() {
+    if (screen.width >= 767 && CurrentPage != 'DesktopPage') {
+        return window.location.replace("index.html");
+    }
+
+    if (screen.width < 767 && CurrentPage != 'MobilePage') {
+        return window.location.replace("mobile.html");
+    }
+}
+
+getTemplate();
+</script>
 	</head>
-	
+
 <!--this is the main part of my website, the "projects" section-->
-	<body>
-		<viewport>
-		<header>	
+
+		<header>
 			<nav><ul>
-				<li><a href="#aboutme">About</a></li>
+				<li><a href="#footer-links">Contact</a></li>
+				<li><a href="#abouth1">About</a></li>
+				<li><a href="index.html">Home</a></li>
 			</ul></nav>
-		</header>	
+		</header>
 
-			<h1><strong>Kylie Cameron</strong></h1>
-		
-		
+			<h1 id="headh1"><strong>Kylie Cameron</strong></h1>
+			<p  id="headp">Student and Web Developer</p>
+
+
  	<!--this is where my project previews will go-->
- 	<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ffffff;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ffffff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:0px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ffffff;}
-.tg .tg-iwtr{background-color:#ffffff;color:#ffffff;vertical-align:top;}
-.tg .tg-yzt1{background-color:#ffffff}
-.tg .tg-cxkv{background-color:#ffffff}
-.tg .tg-bsv2{background-color:#ffffff}
-.tg .tg-3we0{background-color:#ffffff}
-.tg .tg-yw4l{vertical-align:top}
-@media (max-width: 100%) {
-  table,
-  thead,
-  tbody,
-  th,
-  td,
-  tr {
-    display:block;
 
-	
-	
-  }
-</style>
- 				
-<colgroup>
-<col style="width: 110px">
-<col style="width: 108px">
-<col style="width: 418px">
-<col style="width: 578px">
-</colgroup>
-<center>
-  <tr>
-	    <th class="tg-iwtr" rowspan="2"><img id="my-img-two" src="wecancover6.jpg"></th><caption><h3>We Can</h3></caption>
-	    <th class="tg-iwtr" rowspan="2"><img id="my-img-one" src="camerontravelscover3.jpg"></th><caption><h3>Cameron Travels</h3></caption>
- </tr>
-</center>
- <!-- <tr>
-    <td class="tg-iwtr">05/08/2017</td>
-    <td class="tg-yzt1">11:00 – 12:30</td>
-    <td class="tg-yzt1">data</td>
-    <td class="tg-yzt1">data</td>
-  </tr>
-   <tr>
-    <td class="tg-iwtr" rowspan="2">06/08/2017</td>
-    <td class="tg-3we0">15:00 – 16:30</td>
-    <td class="tg-3we0">data</td>
-    <td class="tg-3we0">data</td>
-  </tr>
-  <tr>
-    <td class="tg-yzt1">16:30 – 18:00</td>
-    <td class="tg-yzt1">data</td>
-    <td class="tg-yzt1">data</td>
-  </tr>
-  <tr>
-    <td class="tg-iwtr" rowspan="2">07/08/2017</td>
-    <td class="tg-3we0">15:00 – 16:30</td>
-    <td class="tg-3we0">data</td>
-    <td class="tg-3we0">data</td>
-  </tr>
-  <tr>
-    <td class="tg-yzt1">16:30 – 18:00</td>
-    <td class="tg-yzt1">data</td>
-    <td class="tg-yzt1">data</td>
-  </tr>-->
-</table></div>
-			</center>
+
+ <table>
+ 	<tr>
+ 		<td>
+ 			<h1 id="h1right"><u style="text-decoration-color:#e3effb;">We Can</u></h1>
+ 			<p id="pright">A student lead non-profit I<br> founded to help make STEAM<br>education accessable to all</p><br>
+ 			<p id="readmore"><u style="text-decoration-color:#e3effb;">Read More</u></p>
+ 		</td>
+ 		<td>
+ 			<img id="imageright" src="wecancover.jpg">
+ 		</td>
+ 	</tr>
+
+	<tr>
+ 		<td>
+ 			<img id="imageleft" src="camerontravelscover.jpg">
+ 		</td>
+ 		<td>
+ 			<h1 id="h1left"><u style="text-decoration-color:#f5f0ed;">Cameron Travels</u></h1><br>
+ 			<p id="pleft">A virtual photo album showing</p>
+ 			<p id="pleft">the Cameron's hikes, bikes, and road trips</p>
+ 			<p id="readmore2"><u style="text-decoration-color:#f5f0ed;">Read More</u></p>
+ 		</td>
+ 	</tr>
+
+ 	<tr>
+ 		<td>
+ 			<h1 id="h1right"><u style="text-decoration-color:#e9fbe3;">Sustain.Able</u></h1>
+ 			<p id="pright">Shopping sustainably and<br> supporting ethical brands made simple</p>
+ 				<p id="readmore"><u style="text-decoration-color:#e9fbe3;">Read More</u></p>
+ 		</td>
+ 		<td>
+ 			<img id="imageright" src="sustainablecover.jpg">
+ 		</td>
+ 	</tr>
+</table>
+
+
 <!--this is the footer to my website*-->
 
-	</body>
-	<footer>
-		<strong><h1 id="aboutme">About Me</h1></strong>
-		<center><p>Hi there, I'm Kylie! I'm always open to new projects. Get in contact with me at<a href="Kylie.Cameron1313@gmail.com" class="theemail"> Kylie.Cameron1313@gmail.com</p></center>
+			<footer>
+				<h1 id="abouth1">About Me</h1>
+				<center><p  id="aboutp">Hi there, I'm Kylie! I'm always open to new projects.<br> Get in contact with me at
+					<a href="Kylie.Cameron1313@gmail.com" class="theemail">
+						<u style="text-decoration-color:#fbe3e3;">Kylie.Cameron1313@gmail.com</u>
+					</a>
+				</u>
+			</p>
+		</center>
+
 		<footer id="contact">
-	<div id="footer-links-container">
-		<center><div id="footer-links">
-			<!--<a href="https://dribbble.com/kyliecam" class="mono" target="_">Dribbble</a>-->
-			<a href="mailto:kylie.cameron1313@gmail.com" class="mono" target="_">Email</a>
-			<a href="https://github.com/kylie-cameron" class="mono" target="_">Github</a>
-			<a href="https://www.linkedin.com/in/kylie-cameron-b316821a8/" class="mono" target="_">Linkedin</a>
-		</div></center>
-		<center><p id="copyright" class="mono">&#xa9; <script>document.write(new Date().getFullYear())</script> Kylie Cameron.</p></center>
-			</main>
+			<center>
+				<div id="footer-links">
+					<a href="https://dribbble.com/kyliecam" class="mono" target="_">Dribbble</a>
+
+					<a href="mailto:kylie.cameron1313@gmail.com" class="mono" target="_">Email</a>
+
+					<a href="https://github.com/kylie-cameron" class="mono" target="_">Github</a>
+
+					<a href="https://www.linkedin.com/in/kylie-cameron-b316821a8/" class="mono" target="_">Linkedin</a>
+				</div>
+			</center>
+		</footer>
+
+		<center>
+			<p id="copyright" class="mono">&#xa9; <script>document.write(new Date().getFullYear())</script> Kylie Cameron.</p>
+		</center>
 	</footer>
-</viewport>
 </html>
