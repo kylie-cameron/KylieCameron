@@ -16,6 +16,27 @@ body, html, table, img, tr, td, a, button {
   margin-top:0%;
   color:#6a6a6a;
 }
+.wecan {
+	font-size:1.2rem;
+	color:#333;
+	padding:0;
+	margin:0;
+	text-decoration-color:#e3effb;
+}
+.camtrav {
+	font-size:1.2rem;
+	color:#333;
+	padding:0;
+	margin:0;
+	text-decoration-color:#f5f0ed;
+}
+.sust {
+	font-size:1.2rem;
+	color:#333;
+	padding:0;
+	margin:0;
+	text-decoration-color:#e9fbe3;
+}
 img {
   width:90%;
   height:auto;
