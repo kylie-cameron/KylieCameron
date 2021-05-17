@@ -4,6 +4,14 @@ body, html, table, img, tr, td {
 	margin:0%;
 	background:white;
 }
+#move {
+	margin-right:6%;
+}
+#computerimg {
+	width: 80%;
+	height: auto;
+	padding:2%;
+}
 .wecan {
 	color:#333;
 	padding:0;
@@ -22,9 +30,15 @@ body, html, table, img, tr, td {
 	margin:0;
 	text-decoration-color:#e9fbe3;
 }
+.adx {
+	color:#333;
+	padding:0;
+	margin:0;
+	text-decoration-color:#dbecff;
+}
 #headh1 {
 	margin-top:10%;
-	margin-left:2%;
+	margin-left:5%;
 	font-size:3rem;
 	color: #333;
 	margin-bottom:0%;
@@ -34,7 +48,7 @@ body, html, table, img, tr, td {
 #headp {
 	padding-top:0%;
 	margin-top:0%;
-	margin-left:2%;
+	margin-left:5%;
 	font-size:1.5rem;
 	color:#6a6a6a;
 }
@@ -131,7 +145,7 @@ ul li a {
 }
 #abouth1 {
 		margin-top:10%;
-	margin-left:3%;
+	margin-left:8%;
 	font-size:3rem;
 	color: #333;
 	margin-bottom:0%;
@@ -149,4 +163,18 @@ ul li a {
 a {
 	padding:0%;
 	margin:0%;
+}
+#notp, #notbutton {
+	padding:0%;
+	margin:0%;
+}
+#noth1 {
+	padding-top:10%;
+	padding-bottom:0%;
+	margin-bottom:0%;
+}
+#notbutton {
+	font-size:1.5rem;
+	padding-top:0%;
+	margin-top:0%;
 }
