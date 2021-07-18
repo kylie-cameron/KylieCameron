@@ -67,11 +67,13 @@ nav ul {
 	display: inline;
 }
 nav ul li {
-	font-size:1.2rem;
-	float:right;
+	font-size:1.5rem;
+	float:left;
 	color: #333;
 	list-style-type: none;
-	padding-left:15px;
+	padding-left:5%;
+  padding-top:15px;
+  border-color: black;
 }
 nav ul li a {
 	color: #333;
@@ -84,6 +86,7 @@ ul li {
 ul li a {
 	color: #333;
 }
+
 
 /* style portfolio page*/
 .wecan {
@@ -145,4 +148,29 @@ a {
 .theemail {
 	text-decoration:none;
 	color:black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #e3effb;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #e3effb;
 }
