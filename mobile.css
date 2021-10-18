@@ -49,6 +49,13 @@ body, html, table, img, tr, td, a, button {
 	margin:0;
   text-decoration-color:#e8f0d5;
 }
+.tutor {
+  font-size:25px;
+  color: #333;
+	padding:0;
+	margin:0;
+  text-decoration-color:#F3E7F6;
+}
 img {
   width:90%;
   height:auto;
