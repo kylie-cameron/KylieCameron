@@ -131,6 +131,20 @@ ul li a {
 	margin:0;
   text-decoration-color:#F3E7F6;
 }
+.wecanmag {
+  font-size:25px;
+  color: #333;
+	padding:0;
+	margin:0;
+  text-decoration-color:#FBE3F6;
+}
+.soc {
+  font-size:25px;
+  color: #333;
+	padding:0;
+	margin:0;
+  text-decoration-color:#EEFBE3;
+}
 /* other*/
 table {
   width:100%;

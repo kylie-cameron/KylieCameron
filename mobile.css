@@ -4,6 +4,7 @@ body, html, table, img, tr, td, a, button {
 	margin:0%;
 	background:white;
 }
+/*
 #headh1 {
   padding-top:3rem;
   padding-left:4%;
@@ -16,7 +17,22 @@ body, html, table, img, tr, td, a, button {
   margin-top:0%;
   color:#6a6a6a;
 }
+*/
+#movecenter {
+	margin-bottom:0%;
+	padding-bottom:0%;
+	text-align: center;
+	font-size: 45px;
+}
+#movecenterp {
+	margin-top:0%;
+	padding-top:0%;
+	text-align: center;
+	color:#6a6a6a;
+	font-size: 30;
+}
 .wecan {
+	text-align: center;
 	font-size:1.2rem;
 	color:#333;
 	padding:0;
@@ -24,6 +40,7 @@ body, html, table, img, tr, td, a, button {
 	text-decoration-color:#e3effb;
 }
 .adx {
+	text-align: center;
 	font-size:1.2rem;
 	color:#333;
 	padding:0;
@@ -31,6 +48,7 @@ body, html, table, img, tr, td, a, button {
 	text-decoration-color:#dbecff;;
 }
 .sust {
+	text-align: center;
 	font-size:1.2rem;
 	color:#333;
 	padding:0;
@@ -38,57 +56,84 @@ body, html, table, img, tr, td, a, button {
 	text-decoration-color:#e9fbe3;
 }
 .iag {
+	text-align: center;
 	color: #333;
 	padding:0;
 	margin:0;
 	text-decoration-color:#FFF1F9;
 }
 .plant {
+	text-align: center;
   color: #333;
 	padding:0;
 	margin:0;
   text-decoration-color:#e8f0d5;
 }
 .tutor {
+	text-align: center;
   font-size:25px;
   color: #333;
 	padding:0;
 	margin:0;
   text-decoration-color:#F3E7F6;
 }
+.wecanmag {
+	text-align: center;
+  font-size:25px;
+  color: #333;
+	padding:0;
+	margin:0;
+  text-decoration-color:#FBE3F6;
+}
+.soc {
+	text-align: center;
+  font-size:25px;
+  color: #333;
+	padding:0;
+	margin:0;
+  text-decoration-color:#EEFBE3;
+}
 img {
+	float: center;
   width:90%;
   height:auto;
 }
 #h1port {
+	text-align: center;
   padding:0%;
   margin:0%;
 }
 #pport {
+	text-align: center;
 	color:#6a6a6a;
   padding:0%;
   margin:0%;
 }
 #abouth1 {
+	text-align: center;
   padding-left:4%;
   padding-bottom:0%;
   margin-bottom:0%;
 }
 #aboutp {
+	text-align: center;
   color:#6a6a6a;
   padding-top:0%;
   margin-top:0%;
 }
 .mono {
+	text-align: center;
   color:#333;
   text-decoration:none;
 }
 .theemail {
+	text-align: center;
 	text-decoration:none;
 	color:black;
 }
 /* Add a black background color to the top navigation */
 .topnav {
+	text-align: center;
   overflow: hidden;
 }
 
